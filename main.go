@@ -52,7 +52,7 @@ func main() {
 	app.Static("/static", "static")
 	app.GET("/:path", Redirect)
 
-	app.Logger.Fatal(app.Start(":8080"))
+	app.Logger.Fatal(app.Start(":3825"))
 }
 
 func Home(ctx echo.Context) error {
