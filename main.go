@@ -12,7 +12,7 @@ import (
 var redirects = map[string]string{
 	"discord": "https://discord.com/invite/AjsxPxdKkB",
 	"steam": "https://store.steampowered.com/app/312530/Duck_Game/",
-	"modapp": "https://docs.google.com/forms/d/e/1FAIpQLSedNgzVAHOo_Xk0GDhsBq34HGPBTxXHb4tZtNIMn3hF8CuIFA/viewform"
+	"modapp": "https://docs.google.com/forms/d/e/1FAIpQLSedNgzVAHOo_Xk0GDhsBq34HGPBTxXHb4tZtNIMn3hF8CuIFA/viewform",
 }
 
 type Template struct {
